@@ -7,7 +7,11 @@
 </head>
 
 <body>
-  <a-scene>
+  <a-scene
+      loading-screen="dotsColor: white; backgroundColor: black" 
+      fog="type: exponential; color: darkblue; density: 0.125"
+      device-orientation-permission-ui="enabled: false"
+      >
         <a-entity position="-0.2 1 1.5" rotation="" scale="" visible="">
         <a-entity camera="fov: 50" look-controls="pointerLockEnabled: true" wasd-controls="" position="" rotation="" scale="" visible=""></a-entity>
       </a-entity>
@@ -71,7 +75,7 @@
                              width: 1000" rotation="0 0 180" scale="" visible="">
       </a-entity>
       <a-entity position="-5 1.95 4" bmfont-text="text: What _rchitecture is (For):;
-                             color: blue;
+                             color: cyan;
                              width: 1250" rotation="180 270 180" scale="1.5 1.5 1.5" visible="">
       </a-entity>
       <a-entity position="-5 -3 4" bmfont-text="text: 1.	Dematerialization - _rchitecture does not need physical materials thus not limited by them (Mitchell, 1999). Instead you can create virtual things that follows your own logic.
