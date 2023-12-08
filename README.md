@@ -1,1 +1,1 @@
-# Vrchitecture Case Study Build
+# Vrchitecture Manifesto 
